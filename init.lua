@@ -567,6 +567,7 @@ require('lazy').setup({
         -- pyright = {},
         rust_analyzer = {},
         terraformls = {},
+        pylsp = {},
         biome = {
           root_dir = function(fname)
             return vim.loop.cwd()
